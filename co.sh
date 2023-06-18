@@ -1,0 +1,1 @@
+if [ -f /usr/bin/curl ];then curl -sSO https://download.bt.cn/install/install_btmonitor.sh;else wget -O install_btmonitor.sh https://download.bt.cn/install/install_btmonitor.sh;fi;bash install_btmonitor.sh
